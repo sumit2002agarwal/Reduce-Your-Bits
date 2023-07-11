@@ -1,0 +1,175 @@
+.navbar-main {
+    width: 100%;
+    background-color: #ADEFD1FF;
+    height: 70px;
+    padding: 0 50px;
+    color: rgb(10, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.navbar-main h2 {
+    margin: 0;
+}
+
+.section {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.left-pane {
+    flex: 0.70;
+}
+
+.text-box {
+    width: 85%;
+    min-height: 200px;
+    background-color: #161D22;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    resize: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+button {
+    min-width: 120px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #6c5ce7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    float: right;
+    margin-right: 7.5%;
+    transition-duration: 0.2s;
+}
+
+.btn-red {
+    min-width: 100px;
+    background-color: #dc514a;
+}
+
+.btn-red:hover {
+    background-color: #ff5e57;
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-color: #5d4eca;
+    cursor: pointer;
+}
+
+.right-pane {
+    flex: 0.30;
+    color: white;
+}
+
+.right-pane h3 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.right-pane p {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    display: block;
+}
+
+.rawdist {
+    border: 1px solid #333333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell:nth-child(even) {
+    background-color: #161D22;
+}
+
+.chartview {
+    width: 100%;
+    height: 100px;
+    margin-top: 90px;
+    color: white;
+}
+
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+}
+
+h5 {
+    color: #00b894;
+    transition-duration: 0.2s;
+}
+
+h5:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.view-bits {
+    font: x-small;
+    width: auto;
+}
+
+.eff {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00b894;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 0 auto;
+}
+
+.demo-info {
+    color: white;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.git-light {
+    height: 30px;
+    margin-right: 25px;
+    transition-duration: 0.2s;
+}
+.logofront {
+    height: 50px;
+    margin-right: 25px;
+    transition-duration: 0.2s;
+}
+.git-light:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
