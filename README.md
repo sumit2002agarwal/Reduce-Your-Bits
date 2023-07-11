@@ -1,7 +1,7 @@
-```markdown
+
 # Reduce Your Bits - Huffman Encoding Project
 
-Reduce Your Bits is a web application built using React.js that demonstrates the use of Huffman encoding algorithm to improve efficiency in data storage. The project showcases the application of data structures and the greedy method to find the optimal encoding for characters, reducing the number of bits required to represent them.
+Reduce Your Bits is a web application built using React.js that demonstrates the use of Huffman encoding algorithm to improve efficiency in data storage. The webapp showcases the application of data structures and the greedy method to find the optimal encoding for characters, reducing the number of bits required to represent them.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,14 +9,12 @@ Reduce Your Bits is a web application built using React.js that demonstrates the
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 - [Live Demo](#live-demo)
 
 ## Introduction
 Huffman encoding is a lossless compression algorithm that assigns variable-length codes to characters based on their frequency of occurrence in a given dataset. By representing frequently occurring characters with shorter codes and less frequently occurring characters with longer codes, Huffman encoding achieves a more efficient representation of the data.
 
-The "Reduce Your Bits" project demonstrates the step-by-step process of building a Huffman tree and generating the optimal bit-wise codes for each character in the input dataset. It provides a clear visualization of the Huffman tree and allows users to explore how different characters are encoded.
+"Reduce Your Bits" demonstrates the step-by-step process of building a Huffman tree and generating the optimal bit-wise codes for each character in the input dataset. It provides a clear visualization of the Huffman tree and allows users to explore how different characters are encoded.
 
 ## Installation
 To run the project locally, follow these steps:
@@ -63,5 +61,5 @@ The Reduce Your Bits project utilizes the following technologies:
 
 ## Live Demo
 You can try the live demo of the application [here](https://reduceyourbits.netlify.app/).
-```
+
 
