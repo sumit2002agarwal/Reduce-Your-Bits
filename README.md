@@ -1,5 +1,5 @@
 
-# Reduce Your Bits - Huffman Encoding Project
+# Reduce Your Bits
 
 Reduce Your Bits is a web application built using React.js that demonstrates the use of Huffman encoding algorithm to improve efficiency in data storage. The webapp showcases the application of data structures and the greedy method to find the optimal encoding for characters, reducing the number of bits required to represent them.
 
